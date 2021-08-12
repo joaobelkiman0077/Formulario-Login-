@@ -1,0 +1,73 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+body,html{
+   margin: 0;
+   padding: 0;
+   border: 0;
+   background-image: linear-gradient(to right , #a0fcc3,#4eec8b, #00fc60 );
+   font-family: 'Oswald', 'Futura', sans-serif;
+   height: 100%;
+}
+.container {
+    background-color: whitesmoke;
+    margin: 0 auto 0 auto;
+    border-radius: 20px;
+    width: 50%;
+    margin-top: 10%;
+    box-shadow: 10px 5px 5px black;
+    
+}
+h1{
+    text-align: center;
+    margin: 5px;
+}
+h2{
+    text-align: center;
+    
+}
+form {
+    padding: 0 60px 65px 60px;
+}
+label {
+    color: #00e256;
+    display: block;
+    margin: 10px 0 10px 0;
+    font-size: 24px;
+    font-family: 'Oswald', 'Futura', sans-serif;
+   
+}
+input[type = 'text'], input[type = 'password']{
+    background-color: rgb(172, 252, 172);
+    width: 96%;
+    font-size: 30px;
+    border-radius: 5px;
+    display: inline-block;
+    padding-left: 10px;
+    border: 1px solid rgb(172, 252, 172);
+   
+    
+}
+input[type = 'button']{
+    background-color: rgb(2, 141, 76);
+    border-radius: 10%;
+    border: 1px solid rgb(2, 141, 76) ;
+    font-family: 'Oswald', 'Futura', sans-serif;
+    color: whitesmoke;
+    font-size: 10%;
+    width: 25%;
+    margin-top: 5%;
+    cursor: pointer;
+}
+#feedback {
+    color: black;
+    background-image: url('warning.png');
+    background-repeat: no-repeat;
+    background-position: 2px 14px;
+    padding: 10px 0 0 22px;
+}
+#feedbackP {
+    color: black;
+    background-image: url('warning.png');
+    background-repeat: no-repeat;
+    background-position: 2px 14px;
+    padding: 10px 0 0 22px;
+}
